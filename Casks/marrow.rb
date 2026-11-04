@@ -10,7 +10,7 @@ cask "marrow" do
   desc "Desktop GUI for the REA reverse engineering MCP"
   homepage "https://github.com/utabk/marrow"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Marrow.app"
 
